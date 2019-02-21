@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #333333
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:black;
+  padding: 5px;
+  font-size: 20px;
+  height: 5%;
+  color:blue
+}
+.bg {
+  /* The image used */
+  background-image: url("./images/fire_predic.png");
+
+  /* Full height */
+  height: 95%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .33;
+  
+}
+</style>
+</head>
+<body>
+    <div class="sticky">I will stick to the screen when you reach my scroll position</div>
+<div class="bg"></div>
+    <div>this is shit</div>
+<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
+</body>
+</html>

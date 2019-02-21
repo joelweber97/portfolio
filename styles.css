@@ -1,9 +1,19 @@
 body {
-    background-color: aquamarine
+    background-color: #404040
 };
 
 h3{
 text-align: center;
 font: Arial;
 
+}
+
+#intro {
+    background: url('./images/fire_predic.png');
+    opacity:0.33;
+    width:100%;
+    height:100%;
+    position: fixed; 
+    top: 0; 
+    left: 0;
 }
