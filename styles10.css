@@ -108,6 +108,11 @@ nav#social img{
     
 }
 
+nav#social img:hover{
+    width: 40px;
+    height: 40px;
+}
+
 nav#social ul{
     display: flex;
     list-style: none;
